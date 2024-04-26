@@ -1,0 +1,19 @@
+/* tentativa de responsividade para outras telas(ainda não ficou bom), tem que melhorar várias coisas no css*/
+@media screen and (max-width: 900px) {
+    .offer__list-item {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .apresentacao h2 {
+        margin-right: 0; /* Remova a margem quando a largura da tela for reduzida */
+    }
+
+    .apresentacao img {
+        position: relative;
+        width: 100%;
+        max-width: none; 
+        margin-top: 20px;
+        right: auto; 
+        bottom: auto;
+    }
+}

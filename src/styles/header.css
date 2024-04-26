@@ -1,0 +1,80 @@
+/* Conteúdo header*/
+
+/* Estilização do header*/
+.header {
+    width: 100%;
+    padding: 0 8%;
+    background: #DCDCDE;
+    position: relative;
+    border-bottom: solid #245900 2px;
+}
+
+/* Navegação no header */
+.nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    width: 220px;
+}
+
+/* Links da navegação */
+.nav-links {
+    padding: 28px;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+    position: relative;
+}
+
+/* Efeito de hover para os links */
+.nav-links li a::after {
+    content: '';
+    background: #62A834;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.4s;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+/* Botão de Orçamento */
+.orçamento {
+    background: #62A834;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Melhoria na clareza */
+.orçamento a:after {
+    background-color: #3d7921;
+    text-shadow: 0 0 8px black;
+}
+
+.orçamento:hover {
+    background-color: #3d7921;
+}
+
+/* Efeito de hover para o botão de Orçamento */
+.nav-links .orçamento a:hover::after {
+    width: 0px;
+}

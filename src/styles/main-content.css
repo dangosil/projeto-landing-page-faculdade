@@ -1,0 +1,365 @@
+/* Seletor universal*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Archivo", sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilos para a apresentação inicial */
+.apresentacao {
+    background-image: url(../assets/icons/Imagem-Degrade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 70vh;
+    padding-top: 4rem;
+    justify-content: flex-start;
+    position: relative;
+}
+
+/* Conteúdo principal da página*/
+.apresentacao h2 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3.75rem;
+    color: white;
+    margin-left: 15%;
+    margin-right: 31.25rem;
+}
+
+.apresentacao img {
+    position: absolute;
+    width: 600px;
+    top: 100px;
+    right: 100px;
+}
+
+/* Estilos para os spans dentro da apresentação */
+.apresentacao span {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos para o texto destacado em amarelo */
+.amarelo-promocao,
+.amarelo-intro {
+    color: #dbb039;
+}
+
+/* Estilos para o texto de promoção */
+.promocao {
+    margin-top: 1.875rem;
+    color: white;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    margin-left: 15%;
+    margin-right: 39%;
+}
+
+/* Estilos para o botão do WhatsApp */
+.btn-whatsapp {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.375rem;
+    background-color: #dbb039;
+    padding: 15px 25px;
+    border-radius: 1.25rem;
+    transition: background-color 0.3s ease;
+    margin-top: 3.125rem;
+    margin-left: 15%;
+    margin-bottom: 2.5rem;
+}
+
+.btn-whatsapp strong {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos para o hover do botão do WhatsApp */
+.btn-whatsapp:hover {
+    background-color: #ffbb00;
+}
+
+/* Estilos para a seção principal */
+.principal {
+    min-height: calc(100vh - 180px);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.main {
+    overflow-y: auto;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 10px 20px;
+}
+
+.sobre h2 {
+    font-size: 35px;
+    color: #62A834;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    font-size: 18px;
+}
+
+/* Estilos para a seção de produtos */
+.nossos-produtos {
+    background-color: #62A834;
+    height: 100px;
+    margin: 30px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 35px;
+    font-size: x-large;
+    margin-top: 70px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 300px;
+}
+
+/*Estilização para o Conteiner dos Produtos*/
+.produto {
+    width: 250px;
+    height: 500px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 20px;/*Espaçamento entre cada célula*/
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/*Estilização para o Conteúdo dentro do Conteiner dos Produtos (que tem um conteiner dentro, onde estão tudo)*/
+.conteudo {
+    padding: 20px;
+}
+
+/* Estilos para a imagem dentro de cada produto */
+.imagem img {
+    width:100%;
+    border-radius: 20px 20px 0 0;
+}
+
+/*Estilização para cada nome de produto*/
+.NomeProduto {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+/*Estilização para cada descrição de produto*/
+.DescricaoProduto {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#saiba-mais-p1 {
+    display:block;
+    width:100%;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #62A834;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    margin-top: 47px;
+    margin-bottom: 20px;
+}
+
+
+/* Estilos para o hover do botão Saiba Mais */
+#saiba-mais-p1:hover,
+#saiba-mais-p2:hover,
+#saiba-mais-p3:hover {
+    background-color: #3d7921;
+}
+
+#saiba-mais-p2 {
+    display:block;
+    width:100%;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #62A834;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#saiba-mais-p3 {
+    display:block;
+    width:100%;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #62A834;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+
+/*Estilização para o Conteiner onde está a tabela*/
+#DivTabelaProdutos {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border-radius: 20px;
+    overflow: hidden;  
+}
+
+#TabelaProdutos {
+    width:100%;
+    border-spacing: 0;
+    border-collapse: collapse; 
+}
+
+/*Estilização para a tabela em si*/
+#TabelaProdutos th {
+    background-color: #62A834;
+    padding: 8px;
+    border: 2px solid #ddd;
+    font-weight: 700;
+    text-align: center;   
+}
+
+#TabelaProdutos td {
+    padding: 8px;
+    border: 2px solid #ddd;
+    font-weight: 300;
+    text-align: left;  
+}
+
+#TabelaProdutos td:first-child {
+    font-weight: 700;
+}
+
+#TabelaProdutos tr {
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+/* Estilização do formulário */
+#DivFormulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+/* Estilização para o H1*/
+#TextoOrcamentoFormulario {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Estilização para os campos de nome, email e telefone*/
+#FormularioOrçamento input[type="text"],
+#FormularioOrçamento input[type="email"],
+#FormularioOrçamento input[type="number"],
+#FormularioOrçamento select,
+#FormularioOrçamento textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius:5px;
+    box-sizing: border-box;
+}
+
+/*Estilização dos botões*/
+#FormularioOrçamento button {
+    padding: 10px 20px;
+    background-color: #62A834;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilização para o texto persuasivo*/
+#TextoPersuasivo {
+    text-align: center;
+    font-weight: 300;
+    margin: 10px;
+}
+
+/* Estilização para os radio de Finalidade da energia elétrica*/
+#FormularioOrçamento fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/*Estilização do texto da finalidad da energia solar*/
+#FormularioOrçamento legend {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/*Estilização dos inputs*/
+#FormularioOrçamento input[type="radio"],
+#FormularioOrçamento input[type="checkbox"]{
+    margin-right:10px;
+}
+
+/* Quando o usuário passar o mouse por cima ou clicar no botão "envio" ou no "limpar", acontece uma transição da cor do botão*/
+
+#FormularioOrçamento button:hover {
+    background-color: #3d7921;
+}
+
+/*Estilização para os campos errados e as mensagens de erro*/
+
+#FormularioOrçamento input:invalid,
+#FormularioOrçamento select:invalid,
+#FormularioOrçamento textarea:invalid {
+    border-color: #ff6666;
+}
+
+#FormularioOrçamento input:invalid ~ .error-message,
+#FormularioOrçamento select:invalid ~ .error-message,
+#FormularioOrçamento textarea:invalid ~ .error-message {
+    color: #ff6666;
+    font-size: 12px;
+}
