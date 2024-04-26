@@ -1,5 +1,7 @@
 # Projeto Greenglow Energy FAMINAS 
 
+![Landing page faculdade](https://raw.githubusercontent.com/dangosil/projeto-landing-page-faculdade/master/screenshot.png)
+
 Este projeto é uma landing page para a empresa Greenglow Energy, que oferece soluções de energia solar. A seguir, detalhamos como o projeto foi desenvolvido, as tecnologias utilizadas, os autores envolvidos e como testar o projeto.
 
 ## Visão Geral
